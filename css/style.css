@@ -16,20 +16,9 @@ header {
   font-size: 25px;
 }
 
-ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-main {
-  display: flex;
-}
-
 p {
   text-align: center;
   font-size: 18px;
-  margin-bottom: 50px;
 }
 
 .container {
@@ -38,3 +27,12 @@ p {
   background-color: blanchedalmond;
 }
 
+.description {
+  margin-bottom: 50px;
+}
+.box {
+  width: 400px;
+  height: 200px;
+  background-color: #0f0e17;
+  color: #ffffff;
+}
