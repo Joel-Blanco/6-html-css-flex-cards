@@ -44,6 +44,26 @@ p {
   box-shadow: 0px 0px 8px #535353;
 }
 
-.inside-box {
+.box .inside-box .image img {
+  height: 100px;
+}
+
+.box .inside-box {
   display: flex;
+}
+
+.box .inside-box .box-content {
+  font-size: 10px;
+  text-align: start;
+  line-height: 1.6;
+  padding: 9px 15px;
+}
+
+.box .inside-box .box-content p {
+  font-size: 15px;
+  text-align: start;
+}
+
+.box .inside-box .box-content span {
+  color: #4dcceb;
 }
