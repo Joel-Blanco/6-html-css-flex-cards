@@ -21,10 +21,6 @@ p {
   font-size: 21px;
 }
 
-ul{
-  display:flex;
-  flex-wrap:wrap;
-}
 .container {
   width: 1140px;
   margin: 0px auto;
@@ -34,41 +30,37 @@ ul{
   margin-bottom: 25px;
 }
 
+.image{
+  height:100px;
+}
 .cards {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  color:white;
+  flex-wrap:wrap;
   margin: 0 -15px;
 }
-.box {
-  margin: 15px;
-  width: calc(100%/3 - 30px);
-  min-height: 100px;
-  background-color: #0f0e17;
-  color: #ffffff;
+
+.card{
+  display:flex;
+  width:calc(100%/3 - 30px);
+  margin:15px;
+  height:100px;
+  background-color: black;
   box-shadow: 0px 0px 8px #535353;
 }
 
-.box .inside-box .image img {
-  height: 100px;
+.text-card{
+  margin:10px 15px;
+  line-height:1.5;
 }
 
-.box .inside-box {
-  display: flex;
-}
-
-.box .inside-box .box-content {
-  font-size: 10px;
-  text-align: start;
-  line-height: 1.6;
-  padding: 9px 15px;
-}
-
-.box .inside-box .box-content p {
-  font-size: 15px;
-  text-align: start;
-}
-
-.box .inside-box .box-content a {
+.text-card a{
+  text-decoration: none;
   color: #4dcceb;
+}
+
+.text-card p{
+  font-size: 16px;
+  text-align: start;
 }
